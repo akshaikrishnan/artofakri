@@ -562,6 +562,12 @@ html.has-scroll-dragging {
   .content.content--feature {
     min-height: 0;
   }
+
+  .tiles--columns .tiles__line {
+    width: 25%;
+    padding: 0 .5rem;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=index.d046a61c.css.map */

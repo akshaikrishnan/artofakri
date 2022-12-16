@@ -24,7 +24,7 @@
     "@parcel/transformer-image": "^2.8.2",
     "imagemin-webpack-plugin": "^2.4.2",
     "imagesloaded": "^4.1.4",
-    "locomotive-scroll": "^3.6.1",
+    "locomotive-scroll": "^4.1.4",
     "parcel": "^2.8.2",
     "purgecss-webpack-plugin": "^5.0.0"
   },
