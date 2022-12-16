@@ -549,10 +549,13 @@ Promise.all([
     const scroll = new (0, _locomotiveScrollDefault.default)({
         el: document.querySelector("[data-scroll-container]"),
         smooth: true,
+        smoothMobile: true,
         mobile: {
+            breakpoint: 0,
             smooth: true
         },
         tablet: {
+            breakpoint: 0,
             smooth: true
         }
     });

@@ -14,10 +14,13 @@ Promise.all([preloadImages(".tiles__line-img"), preloadFonts("rmd7deq")]).then(
     const scroll = new LocomotiveScroll({
       el: document.querySelector("[data-scroll-container]"),
       smooth: true,
+      smoothMobile: true,
       mobile: {
+        breakpoint: 0,
         smooth: true,
       },
       tablet: {
+        breakpoint: 0,
         smooth: true,
       },
     });
